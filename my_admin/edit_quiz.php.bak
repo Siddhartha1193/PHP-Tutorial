@@ -1,0 +1,147 @@
+<?php
+include 'lib/class.user.php';
+$user = new User1248();
+if (!$user->get_session()){
+       header("location:index.php");
+    }
+
+include "lib/header.php";
+
+$ques_id=$_GET['ques_id'];
+if(isset($_REQUEST["submit"]))
+{
+	extract($_REQUEST);  
+
+		$result=$user->update_question($ques_id, $ques_title, $ans_1, $ans_2, $ans_3, $ans_4, $ans_correct);
+	
+			if($result)
+										 {	
+											unset($_REQUEST);
+												
+										    echo '<script>alert("Question Added successfully")</script>';
+                                            echo'<script type="text/javascript">';
+?>
+               window.location="quiz<?php echo $quiz_id; ?>.php";
+<?php
+          
+      echo'</script>';
+												
+											 }
+											 else
+											 {
+								 echo '<script>alert("Sorry something wrong")</script>';
+											 }										 	
+}
+
+$single_ques=$user->get_question($ques_id);
+$row_details=mysqli_fetch_array($single_ques);
+?>
+
+		<div class="row">
+			<div class="col-md-12">
+				<div class="panel">
+					<div class="panel-heading">
+						<div class="panel-title"><h4>EDIT QUESTION FOR QUIZ <?php echo $row_details[quiz_id]; ?></h4></div>
+					</div><!--.panel-heading-->
+					<div class="panel-body">
+					<div class="box double-border">
+
+						<form action="" class="form-horizontal" method="post" enctype="multipart/form-data" >
+							<div class="form-content">
+								
+
+								<div class="form-group">
+									<label class="control-label col-md-3">Question<span class="valid">*</span> : </label>
+									<div class="col-md-7">
+										<div class="inputer">
+											<div class="input-wrapper">
+												<input type="text" name="ques_title" class="form-control" required value="<?php echo htmlspecialchars($row_details[ques_title] ); ?>">
+												<input type="hidden" name="quiz_id" value="<?php echo $row_details[quiz_id]; ?>">
+											</div>
+										</div>
+									</div>
+								</div><!--.form-group-->
+
+								<div class="form-group">
+									<label class="control-label col-md-3">Answer 1<span class="valid">*</span> : </label>
+									<div class="col-md-7">
+										<div class="inputer">
+											<div class="input-wrapper">
+												<input type="text" name="ans_1" class="form-control" required value="<?php echo htmlspecialchars($row_details[ans_1]); ?>">
+											</div>
+										</div>
+									</div>
+								</div><!--.form-group-->
+
+								<div class="form-group">
+									<label class="control-label col-md-3">Answer 2<span class="valid">*</span> : </label>
+									<div class="col-md-7">
+										<div class="inputer">
+											<div class="input-wrapper">
+												<input type="text" name="ans_2" class="form-control" required value="<?php echo $row_details[ans_2]; ?>">
+											</div>
+										</div>
+									</div>
+								</div><!--.form-group-->
+
+								<div class="form-group">
+									<label class="control-label col-md-3">Answer 3<span class="valid">*</span> : </label>
+									<div class="col-md-7">
+										<div class="inputer">
+											<div class="input-wrapper">
+												<input type="text" name="ans_3" class="form-control" required value="<?php echo $row_details[ans_3]; ?>">
+											</div>
+										</div>
+									</div>
+								</div><!--.form-group-->
+
+								<div class="form-group">
+									<label class="control-label col-md-3">Answer 4<span class="valid">*</span> : </label>
+									<div class="col-md-7">
+										<div class="inputer">
+											<div class="input-wrapper">
+												<input type="text" name="ans_4" class="form-control" required value="<?php echo $row_details[ans_4]; ?>">
+											</div>
+										</div>
+									</div>
+								</div><!--.form-group-->
+
+								<div class="form-group">
+									<label class="control-label col-md-3">Correct Answer<span class="valid">*</span> : </label>
+									<div class="col-md-7">
+									
+												<select class="form-control" name="ans_correct">
+													<option value="1" <?php if($row_details[ans_correct]=='1') {echo 'Selected'; } ?>>Answer 1</option>
+													<option value="2" <?php if($row_details[ans_correct]=='2') {echo 'Selected'; } ?>>Answer 2</option>
+													<option value="3" <?php if($row_details[ans_correct]=='3') {echo 'Selected'; } ?>>Answer 3</option>
+													<option value="4" <?php if($row_details[ans_correct]=='4') {echo 'Selected'; } ?>>Answer 4</option>
+												</select>
+											
+									</div>
+								</div><!--.form-group-->
+						
+						
+
+							<div class="form-buttons">
+								<div class="row">
+									<div class="col-md-offset-2 col-md-10">
+										<input type="submit" class="btn btn-blue" value="Update" name="submit" >
+										<input type="reset" class="btn btn-flat btn-default" value="Reset" name="reset">
+									</div>
+								</div>
+							</div>
+							</div>
+						</form>
+						
+
+						</div><!-- .box -->
+
+					</div><!--.panel-body-->
+				</div><!--.panel-->
+			</div><!--.col-md-12-->
+		</div><!--.row-->
+<?php
+include "lib/footer.php";
+include "lib/menu.php";
+include "lib/page-js.php";
+?>
