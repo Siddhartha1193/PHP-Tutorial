@@ -40,4 +40,28 @@ PHP Tutorial is an educational tool on the programming language PHP. It is a web
 * The ungraded quiz, Quiz #3 consists of questions that are intended for users to assess themselves. The answers to these questions can be downloaded by clicking the link below the questions.
 ![image](https://user-images.githubusercontent.com/10985717/36140486-47a34912-1056-11e8-9934-d207e13dff9f.png)
 
+### Admin/Instructor Manual
+
+* The instructor/admin can login with the provided credentials. These credentials can later be changed from the Admin Profile settings section in the dashboard.
+![image](https://user-images.githubusercontent.com/10985717/36140908-cdfac322-1057-11e8-8248-cb53d46beae6.png)
+
+* The admin menu has links to various sections of the Admin dashboard. The menu consists of links to the Pages, Quizzes and Results section.
+![image](https://user-images.githubusercontent.com/10985717/36140959-f319953e-1057-11e8-9cf4-e7a3eaa8210a.png)
+
+* Add Page
+![image](https://user-images.githubusercontent.com/10985717/36140979-0483f06c-1058-11e8-9797-e4881d491ce2.png)
+* Edit Page
+![image](https://user-images.githubusercontent.com/10985717/36140999-185e40a6-1058-11e8-9e03-373481d72b9e.png)
+
+* Quiz 1 and 2 - Add/Edit Question
+![image](https://user-images.githubusercontent.com/10985717/36141010-28e8ff7e-1058-11e8-8ad7-1e0ca13091a7.png)
+
+![image](https://user-images.githubusercontent.com/10985717/36141030-374e0b40-1058-11e8-9d16-dde579c1ef7f.png)
+
+* Quiz 3 - Add/Edit Questions
+![image](https://user-images.githubusercontent.com/10985717/36141064-51267bba-1058-11e8-90ca-2db50babd1d7.png)
+
+* View/Edit Quiz Results
+![image](https://user-images.githubusercontent.com/10985717/36141077-597a3658-1058-11e8-9414-034ece0044ac.png)
+
 
