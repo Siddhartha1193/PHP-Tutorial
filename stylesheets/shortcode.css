@@ -1,9 +1,9 @@
 
-/** 
+/**
   * Dividers
   * Wrap-box
   * Flat-row
-  * Title-section 
+  * Title-section
   * Button
   * Owl-Nav
   * Flat-Teammember
@@ -27,7 +27,7 @@
 */
 
 /* Dividers
---------------------------------------------------------*/
+-------------------------------------------------------*/
 .dividers {
     height: 40px;
     width: 100%;
@@ -162,7 +162,7 @@
     overflow: inherit;
 }
 
-/* Flat-row 
+/* Flat-row
 ------------------------------------------------------------*/
 .flat-row {
     position: relative;
@@ -236,7 +236,7 @@
     background: url(../images/bg1.png) repeat;
 }
 
-/* Title-section 
+/* Title-section
 --------------------------------------------------------*/
 .title-section {
     text-align: center;
@@ -264,7 +264,7 @@
 
 .title-section .sub-title span {
     font-weight: 700;
-} 
+}
 
 .title-section.color-sub .color-gray {
     color: #6f787f;
@@ -274,7 +274,7 @@
     color:#ffbf43
 }
 
-/* Button 
+/* Button
 --------------------------------------------------------*/
 .flat-btn,
 .flat-btn:after,
@@ -286,7 +286,7 @@
         -moz-transition: all 0.3s ease-in-out;
          -ms-transition: all 0.3s ease-in-out;
           -o-transition: all 0.3s ease-in-out;
-             transition: all 0.3s ease-in-out; 
+             transition: all 0.3s ease-in-out;
 }
 
 .button-style {
@@ -304,7 +304,7 @@
 .wrap-btn {
     position: relative;
     display: inline-block;
-    z-index: 2; 
+    z-index: 2;
 }
 
 .flat-btn {
@@ -418,7 +418,7 @@
     left: 10px;
 }
 
-/* Flat-Teammember 
+/* Flat-Teammember
 --------------------------------------------------------*/
 .flat-teammember {
     background-color: #fff;
@@ -436,7 +436,7 @@
 .flat-teammember:hover {
     box-shadow: 0px 19px 35px 0px rgba(0, 0, 0, 0.15);
 }
-    
+
 .flat-teammember .team-image {
     margin-bottom: 19px;
 }
@@ -479,7 +479,7 @@
     color: #ffbf43;
 }
 
-/* Teammember 
+/* Teammember
 --------------------------------------------------*/
 .team-member .owl-controls .owl-nav div {
     top: 47%!important;
@@ -495,7 +495,7 @@
     left: -66px!important;
 }
 
-/* Searchform 
+/* Searchform
 --------------------------------------------------------*/
 .f-select {
     position: relative;
@@ -576,7 +576,7 @@
     border:1px solid #ffbf43;
 }
 
-/* Select-sort 
+/* Select-sort
 --------------------------------------------------------*/
 .select-category {
     padding: 20px 0px 20px 32px;
@@ -675,7 +675,7 @@
     font-size: 24px;
 }
 
-/* Iconbox 
+/* Iconbox
 --------------------------------------------------------*/
 .iconbox {
     text-align: center;
@@ -697,7 +697,7 @@
 
 .iconbox:hover .box-icon {
     transform: rotateY(-180deg);
-    box-shadow: 0px 13px 24px 0px rgba(0, 0, 0, 0.25); 
+    box-shadow: 0px 13px 24px 0px rgba(0, 0, 0, 0.25);
 }
 
 .iconbox.bg-style:hover .box-icon {
@@ -727,7 +727,7 @@
 .iconbox .box-header .box-title {
     font-size: 18px;
     line-height: 36px;
-    
+
     font-weight: 700;
     margin-bottom: 7px;
     text-transform: uppercase;
@@ -839,7 +839,7 @@
     display: none;
 }
 
-/* About-us 
+/* About-us
 --------------------------------------------------------*/
 .about-us h2.title-about-us {
     font-size: 22px;
@@ -1019,7 +1019,7 @@
 .portfolio .entry .entry-post .entry-author span {
     position: relative;
     font-size: 16px;
-} 
+}
 
 .portfolio .entry .entry-number {
     overflow: hidden;
@@ -1253,7 +1253,7 @@
 /* Form-register
 --------------------------------------------------------*/
 .form-register {
-    box-shadow: 0px 18px 29px 0px rgba(0, 0, 0, 0.15); 
+    box-shadow: 0px 18px 29px 0px rgba(0, 0, 0, 0.15);
 }
 
 .form-register .form-register-title {
@@ -1357,7 +1357,7 @@
     font-size: 14px;
     color: #bfc5ca;
     font-weight: 700;
-    margin-top: -5px;   
+    margin-top: -5px;
 }
 
 .countdown .square:nth-last-child(3) .numb {
@@ -1409,7 +1409,7 @@
 .wrap-event-times {
     margin-bottom: 62px;
 }
- 
+
 .wrap-event-times article.times-body {
     overflow: hidden;
     margin-bottom: 20px;
@@ -1902,7 +1902,7 @@ article.pricing-table:hover .pricing-header::after {
 .sidebar .widget h3.widget-title {
     color: #22272b;
     padding: 0px 0px 19px 0px;
-    margin-bottom: 30px;  
+    margin-bottom: 30px;
 }
 
 .sidebar .widget h3.widget-title::before {
@@ -2037,7 +2037,7 @@ article.pricing-table:hover .pricing-header::after {
 
 .sidebar .widget.widget-teacher ul li a {
     font-size: 12px;
-    line-height: 21px; 
+    line-height: 21px;
 }
 
 .sidebar .widget.widget-teacher ul li a i {
@@ -2051,7 +2051,7 @@ article.pricing-table:hover .pricing-header::after {
     padding: 52px 29px 52px 30px;
     -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
             box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
-} 
+}
 
 .wrap-course-details {
     margin-bottom: 50px;
@@ -2070,7 +2070,7 @@ padding: 10px 5px;
 
 .wrap-course-details article.entry:hover {
     box-shadow: none;
-} 
+}
 
 .wrap-course-details .entry .entry-post {
     margin-bottom: 29px;
@@ -2117,7 +2117,7 @@ padding: 10px 5px;
 }
 
 .wrap-course-details .entry-number .entry-count {
-    float: none; 
+    float: none;
     margin-bottom: 4px;
 }
 
@@ -2278,8 +2278,8 @@ border: 1px solid #a8a6a6;
 }
 
 .wrap-course-syliabus h3.course-title-text{
-    margin-bottom: 22px; 
-    padding-bottom: 6px;   
+    margin-bottom: 22px;
+    padding-bottom: 6px;
 }
 
 .wrap-course-syliabus h3.course-title-text::before {
@@ -2311,7 +2311,7 @@ border: 1px solid #a8a6a6;
 .wrap-course-syliabus .table-body {
     padding: 0;
     background-color: transparent;
-    box-shadow: none; 
+    box-shadow: none;
 }
 
 .wrap-course-syliabus .table-body .table > tbody > tr > td.icon-play::before {
@@ -2339,7 +2339,7 @@ border: 1px solid #a8a6a6;
 .table-body {
     padding: 30px 29px 33px 31px;
     background-color: #fff;
-    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.15); 
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
 }
 
 .table-body .table {
@@ -2357,7 +2357,7 @@ border: 1px solid #a8a6a6;
 .table-body .table > thead > tr > th {
     border-bottom: none;
     padding: 15px 0px 13px 0px;
-    text-align: center; 
+    text-align: center;
 }
 
 .table-body .table > thead > tr > th.title-col1 {
@@ -2381,20 +2381,3 @@ border: 1px solid #a8a6a6;
     font-family: 'FontAwesome';
     color: #ffbf43;
 }
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-

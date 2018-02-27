@@ -1,5 +1,5 @@
-/* 
- *  Owl Carousel - Animate Plugin
+/*
+ *  Owl Carousel - Animate Plugin 
  */
 .owl-carousel .animated {
   -webkit-animation-duration: 1000ms;
@@ -37,7 +37,7 @@
   }
 }
 
-/* 
+/*
  * 	Owl Carousel - Auto Height Plugin
  */
 .owl-height {
@@ -48,7 +48,7 @@
   transition: height 500ms ease-in-out;
 }
 
-/* 
+/*
  *  Core Owl Carousel CSS File
  */
 .owl-carousel {
@@ -143,7 +143,7 @@
   display: block;
 }
 
-/* 
+/*
  * 	Owl Carousel - Lazy Load Plugin
  */
 .owl-carousel .owl-item .owl-lazy {
@@ -158,7 +158,7 @@
   transform-style: preserve-3d;
 }
 
-/* 
+/*
  * 	Owl Carousel - Video Plugin
  */
 .owl-carousel .owl-video-wrapper {
@@ -231,7 +231,7 @@
     background-color: transparent;
     border: 2px solid #00aeff;
     border-radius: 50%;
-    margin: 4px;   
+    margin: 4px;
     display: block;
     -webkit-backface-visibility: visible;
     -webkit-transition: opacity 200ms ease;
@@ -252,15 +252,15 @@
     width: 25px;
     text-align: center;
     line-height: 25px;
-    height: 25px; 
+    height: 25px;
     top: 88.5%;
     font-size: 0;
-    margin-top: -20px; 
+    margin-top: -20px;
     -webkit-transition: all 0.3s ease-in-out;
        -moz-transition: all 0.3s ease-in-out;
         -ms-transition: all 0.3s ease-in-out;
          -o-transition: all 0.3s ease-in-out;
-            transition: all 0.3s ease-in-out;     
+            transition: all 0.3s ease-in-out;
 }
 
 .owl-theme .owl-controls .owl-nav div:hover {
@@ -269,27 +269,27 @@
 
 .owl-theme .owl-controls .owl-nav div.owl-prev {
     position: absolute;
-    right: 36px;   
+    right: 36px;
 }
 
 .owl-theme .owl-controls .owl-nav div.owl-prev:before,
 .owl-theme .owl-controls .owl-nav div.owl-next:before {
-    font-family: FontAwesome;    
+    font-family: FontAwesome;
     font-size: 16px;
-    color: #bfc5ca; 
+    color: #bfc5ca;
     -webkit-transition: all 0.3s ease-in-out;
        -moz-transition: all 0.3s ease-in-out;
         -ms-transition: all 0.3s ease-in-out;
          -o-transition: all 0.3s ease-in-out;
             transition: all 0.3s ease-in-out;
-}  
+}
 
 .owl-theme .owl-controls .owl-nav div.owl-prev:before {
-   content: "\f104"; 
+   content: "\f104";
 }
 
 .owl-theme .owl-controls .owl-nav div.owl-prev:hover:before,
-.owl-theme .owl-controls .owl-nav div.owl-next:hover:before {    
+.owl-theme .owl-controls .owl-nav div.owl-next:hover:before {
     color: #ffbf43;
 }
 
@@ -298,6 +298,6 @@
   right: 0;
 }
 
-.owl-theme .owl-controls .owl-nav div.owl-next:before {    
-    content: "\f105";    
-}  
+.owl-theme .owl-controls .owl-nav div.owl-next:before {
+    content: "\f105";
+}
